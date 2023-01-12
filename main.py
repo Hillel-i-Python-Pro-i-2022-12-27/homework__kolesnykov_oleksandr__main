@@ -1,12 +1,5 @@
-from random import randint
 from application import get_fake_name
-
-
-def get_random_age() -> int:
-    """
-    This function returns a random int() from 5 to 55
-    """
-    return randint(5, 55)
+from application import get_random_age
 
 
 def say_hello() -> str:
