@@ -13,7 +13,7 @@ homework-i-run:
 .PHONY: homework-i-purge
 
 homework-i-purge:
-	@echo Goodbye! :)
+	@echo Goodbye!
 
 .PHONY: pre-commit-run
 
