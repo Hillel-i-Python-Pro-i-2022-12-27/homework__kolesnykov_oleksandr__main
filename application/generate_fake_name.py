@@ -3,7 +3,7 @@ from faker import Faker
 
 def get_fake_name() -> str:
     """
-    This function returns a random str(name) from "Faker==16.3.0" module
+    This function returns a random male or female name
     """
 
     return Faker().first_name()
